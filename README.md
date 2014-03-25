@@ -13,6 +13,16 @@ Features
 - Compliance to OMG UML Infrastructure 2.4.1 Basic Meta-Model Package
 
 
+Usage
+- Add a class from the Model Menu. 
+- Click on the edge of a class to implement an interface, extend a class, etc.
+- Drag classes, edges around to suit your needs.
+- Double click to add attributes.
+- Save/Load models
+- Generate code.
+
+
+
 NOTE
 - This code is meant to provide a simple code base for reference.
 - However, it is buggy and incomplete.
