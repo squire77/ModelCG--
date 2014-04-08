@@ -177,16 +177,16 @@
       <file leaf-file-name="Console.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scaffold/application/console/Console.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="248" column="59" selection-start="10471" selection-end="10471" vertical-scroll-proportion="0.0">
+            <state line="459" column="17" selection-start="18656" selection-end="18656" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphics-test.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="graphics-test.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/models/graphics-test.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="39" selection-start="212" selection-end="212" vertical-scroll-proportion="0.30155212">
+            <state line="11" column="30" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -201,10 +201,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scaffold/application/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0">
+            <state line="50" column="0" selection-start="1805" selection-end="1805" vertical-scroll-proportion="1.3769401">
               <folding />
             </state>
           </provider>
@@ -588,8 +588,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="2" width="1618" height="884" extended-state="1" />
-    <editor active="true" />
+    <frame x="-10" y="2" width="1618" height="884" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -610,7 +610,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1949807" sideWeight="0.67464787" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253521" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253521" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -729,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scaffold/application/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scaffold/platform/docmanager/DocumentManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="24" selection-start="3465" selection-end="3465" vertical-scroll-proportion="0.0">
@@ -769,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scaffold/application/console/Console.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="59" selection-start="10471" selection-end="10471" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/scaffolds/java-testclient.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -785,7 +771,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/models/graphics-test.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="212" selection-end="212" vertical-scroll-proportion="0.30155212">
+        <state line="11" column="30" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scaffold/application/console/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="459" column="17" selection-start="18656" selection-end="18656" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scaffold/application/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1805" selection-end="1805" vertical-scroll-proportion="1.3769401">
           <folding />
         </state>
       </provider>
