@@ -3,17 +3,20 @@
 //****
 package default;
 
-abstract public class MySuper {
+public class MyAggr {
 
     //*** accessors ***************************
 
-    int getMyattr() { return this.myattr; }
+    int getAttr1() { return this.attr1; }
+    int getAttr2() { return this.attr2; }
 
 
     //*** associations ***********************
 
+    public MyClass aMyClass;
 
     //*** attributes ***************************
 
-    private int myattr;
+    private int attr1;
+    private int attr2;
 }

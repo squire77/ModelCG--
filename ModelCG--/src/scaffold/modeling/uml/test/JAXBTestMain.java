@@ -21,7 +21,7 @@ import java.util.List;
 
 
 public class JAXBTestMain {
-    @XmlRootElement(namespace = "test.modeling.uml.test")
+    @XmlRootElement(namespace = "scaffold.modeling.uml.test")
     static class MyType extends UmlType { 
         public static MyType create(String name) {
             MyType myType = new MyType(name);
@@ -57,11 +57,11 @@ public class JAXBTestMain {
         UmlPackage.getDefaultPackage().addNestedPackage(pack1.getID());           
         pack2 = UmlPackage.create("pack2");
         pack1.addNestedPackage(pack2.getID());        
-        writeXML("test/pack1.xml", UmlPackage.class, pack1);                 
+        writeXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\pack1.xml", UmlPackage.class, pack1);
         
         String ID = pack1.getID();
         
-        UmlPackage test = (UmlPackage) readXML("test/pack1.xml", UmlPackage.class);  
+        UmlPackage test = (UmlPackage) readXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\pack1.xml", UmlPackage.class);
                 
         if ((!test.getName().equals("pack1")) || (!test.getID().equals(ID) ||
             (!UmlPackage.getPackage(test.getNestingPackage()).getName().equals("default"))) ||
@@ -76,9 +76,9 @@ public class JAXBTestMain {
     public boolean testJAXB_UmlPackage_2() throws JAXBException {       
         pack1.addOwnedType(myType1.getID());
         pack1.addOwnedType(myClass1.getID());
-        writeXML("test/pack1-ownedTypes.xml", UmlPackage.class, pack1); 
+        writeXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\pack1-ownedTypes.xml", UmlPackage.class, pack1);
         
-        UmlPackage test = (UmlPackage) readXML("test/pack1-ownedTypes.xml", UmlPackage.class);  
+        UmlPackage test = (UmlPackage) readXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\pack1-ownedTypes.xml", UmlPackage.class);
         List<String> ownedTypeIDs = test.getOwnedTypes();
         UmlType type1 = UmlType.getType(ownedTypeIDs.get(0));
         UmlType type2 = UmlType.getType(ownedTypeIDs.get(1));
@@ -95,14 +95,14 @@ public class JAXBTestMain {
     //UmlType: ID (key), package:ID
     public boolean testJAXB_UmlType() throws JAXBException {
         myType1 = MyType.create("my-type");        
-        writeXML("test/my-type.xml", MyType.class, myType1);
+        writeXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\my-type.xml", MyType.class, myType1);
         
         String ID = myType1.getID();
         String name = myType1.getName();
         int visibility = myType1.getVisibilityKind();
         String packageID = myType1.getPackage();
         
-        MyType test = (MyType) readXML("test/my-type.xml", MyType.class);
+        MyType test = (MyType) readXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\my-type.xml", MyType.class);
         
         if ( (!test.getID().equals(ID)) ||
              (!test.getName().equals("my-type") || !test.getName().equals(name)) ||
@@ -123,7 +123,7 @@ public class JAXBTestMain {
         myClass1.setAbstract(true);        
         myInterface1 = CmClass.create("MyInterface", true);
         myClass1.addSuperClass(myInterface1);
-        writeXML("test/MyClass.xml", CmClass.class, myClass1);
+        writeXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\MyClass.xml", CmClass.class, myClass1);
         
         String ID = myClass1.getID();
         String name = myClass1.getName();
@@ -136,7 +136,7 @@ public class JAXBTestMain {
         List<CmOperation> ops = myClass1.getOwnedOperations();
         List<CmProperty> props = myClass1.getOwnedAttributes();
         
-        CmClass test = (CmClass) readXML("test/MyClass.xml", CmClass.class);
+        CmClass test = (CmClass) readXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\MyClass.xml", CmClass.class);
         
         if ( (!test.getID().equals(ID)) ||
              (!test.getName().equals("MyClass") || !test.getName().equals(name)) ||
@@ -167,7 +167,7 @@ public class JAXBTestMain {
         CmParameter p2 = method1.addParameter("p2");
         p2.setTypeID(AslString.getInstance().getID());    
         p2.setDirection(2); //IN_OUT
-        writeXML("test/MyClass-method1.xml", CmClass.class, myClass1);
+        writeXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\MyClass-method1.xml", CmClass.class, myClass1);
         
         CmOperation op = myClass1.getOwnedOperations().get(0);
         String name = op.getName();
@@ -180,7 +180,7 @@ public class JAXBTestMain {
         List<UmlType> exceps = op.getRaisedExceptions();
         String body = op.getBody();
         
-        CmClass testClass = (CmClass) readXML("test/MyClass-method1.xml", CmClass.class);
+        CmClass testClass = (CmClass) readXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\MyClass-method1.xml", CmClass.class);
         CmOperation testOp = testClass.getOwnedOperations().get(0);
         
         if ((!testOp.getName().equals("method1") || !testOp.getName().equals(name)) ||
@@ -211,7 +211,7 @@ public class JAXBTestMain {
         attr1.setComposite(true);
         attr1.setDerived(true);
         attr1.setIsID(true);
-        writeXML("test/MyClass-attr1.xml", CmClass.class, myClass1);
+        writeXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\MyClass-attr1.xml", CmClass.class, myClass1);
         return true;
     }
     
@@ -220,9 +220,9 @@ public class JAXBTestMain {
         CmClass c1 = CmClass.create("C1", false);
         CmClass c2 = CmClass.create("C2", false);
         CmAssociation myAssoc1 = CmAssociation.create(true, true, false, c1, c2);
-        writeXML("test/assoc1.xml", CmAssociation.class, myAssoc1);
+        writeXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\assoc1.xml", CmAssociation.class, myAssoc1);
         
-        CmAssociation test = (CmAssociation) readXML("test/assoc1.xml", CmAssociation.class);
+        CmAssociation test = (CmAssociation) readXML("C:\\Users\\aperiquet\\Documents\\GitHub\\ModelCG--\\ModelCG--\\src\\scaffold\\modeling\\uml\\test\\testdata\\assoc1.xml", CmAssociation.class);
         return true;
     }
 

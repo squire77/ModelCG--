@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
 
-@XmlType(propOrder = { "association", "classID", "static", "readOnly", "navigable", "composite", "aggregate", "multiplicity"})
+@XmlType(propOrder = { "assocID", "classID", "static", "readOnly", "navigable", "isComposite", "aggregate", "multiplicity"})
 public class CmAssocEnd extends UmlNamedElement implements Observer {
     public CmAssocEnd() {
     }
@@ -101,19 +101,19 @@ public class CmAssocEnd extends UmlNamedElement implements Observer {
         return this.multiplicity;
     }
     
-    @XmlElement(name = "association")
+    @XmlElement(name = "assocID")
     private String                  assocID;
     
-    @XmlElement(name = "class") 
+    @XmlElement(name = "classID")
     private String                  classID; 
                 
     private boolean                 isStatic;     
     private boolean                 isReadOnly; 
     private boolean                 isNavigable;
-    
-    @XmlElement(name = "composite") 
-    private boolean                 isComposite;     
-    
+
+    @XmlElement(name = "isComposite")
+    private boolean                 isComposite;
+
     private boolean                 isAggregate;
            
     @XmlElement(name = "multiplicity")

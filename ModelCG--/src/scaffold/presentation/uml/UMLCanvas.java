@@ -217,6 +217,7 @@ public class UMLCanvas extends GraphCanvas {
             ClassModel.writeToFile(FileUtility.extractDir(graphFileName)+"data\\");
         } catch (Exception e) {
             ErrorDialog.error("Unable to save model to file: " + FileUtility.extractFileName(graphFileName));
+            e.printStackTrace();
         }
         
         super.writeGraph(graphFileName);
@@ -229,6 +230,7 @@ public class UMLCanvas extends GraphCanvas {
             ClassModel.readFromFile(FileUtility.extractDir(graphFileName)+"data\\");
         } catch (Exception e) {
             ErrorDialog.error("Unable to read model from file: " + FileUtility.extractFileName(graphFileName));
+            e.printStackTrace();
             return;
         }        
         long totalTime = System.currentTimeMillis() - startTime;

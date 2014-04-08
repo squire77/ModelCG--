@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlType;
 
 @XmlRootElement(namespace = "test.modeling.uml.basic")
 
-@XmlType(propOrder = { "ID", "nestingPackage", "nestedPackages", "ownedTypes" })
+@XmlType(propOrder = { "ID", "nestingPackageID", "nestedPackageIDs", "ownedTypeIDs" })
 public class UmlPackage extends UmlNamedElement implements UmlIdentifiable {   
     private static final String DEFAULT_PACKAGE_NAME = "default";
     private static final String PRIMITIVE_TYPES_PACKAGE_NAME = "infrastructure.core.primitivetypes";
@@ -276,17 +276,17 @@ public class UmlPackage extends UmlNamedElement implements UmlIdentifiable {
     @XmlTransient
     private String              URI;    
     
-    //thse use a bean convention (get/set) and so, are XmlElements by default
+    //this uses a bean convention (get/set) and so, are XmlElements by default
     private String              ID;
     
-    @XmlElement(name = "nestingPackage")
+    @XmlElement(name = "nestingPackageID")
     private String              nestingPackageID;
     
-    @XmlElementWrapper(name = "nestedPackages")
+    @XmlElementWrapper(name = "nestedPackageIDs")
     @XmlElement(name = "packageID")
     private List<String>        nestedPackageIDs = new ArrayList<String>();    
     
-    @XmlElementWrapper(name = "ownedTypes")
+    @XmlElementWrapper(name = "ownedTypeIDs")
     @XmlElement(name = "typeID")
     private List<String>        ownedTypeIDs = new ArrayList<String>();
 }

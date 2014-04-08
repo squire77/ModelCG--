@@ -3,13 +3,17 @@
 //****
 package default;
 
-public class MyInterface2 {
+public class MyClass implements IMyInterface {
+    public void method1() {
+    }
 
     //*** accessors ***************************
 
 
     //*** associations ***********************
 
+    public MyAssoc a;
+    public List<MyAggr> b;
 
     //*** attributes ***************************
 

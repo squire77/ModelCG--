@@ -19,7 +19,7 @@ import javax.xml.bind.annotation.XmlType;
 
 @XmlRootElement(namespace = "test.modeling.uml.basic.cm")
 
-@XmlType(propOrder = { "interface", "abstract", "finalSpecialization", "superClassIDs", "ownedOperations", "ownedAttributes" })
+@XmlType(propOrder = { "isInterface", "abstract", "finalSpecialization", "superClassIDs", "ownedOperations", "ownedAttributes" })
 public class CmClass extends UmlType implements Observer, UmlIdentifiable  {   
     public static void initialize() {
         classes.clear();
@@ -378,7 +378,7 @@ public class CmClass extends UmlType implements Observer, UmlIdentifiable  {
     }        
     
     // the name of the property is 'isInterface' but in XML, it is renamed to 'interface'
-    @XmlElement(name = "interface")
+    @XmlElement(name = "isInterface")
     private boolean              isInterface;
     
     //these use a bean convention (get/set) and so, are XmlElements by default
@@ -388,7 +388,7 @@ public class CmClass extends UmlType implements Observer, UmlIdentifiable  {
     @XmlTransient
     private List<CmClass>        superClasses = new ArrayList<CmClass>();
     
-    @XmlElementWrapper(name = "superClasses")
+    @XmlElementWrapper(name = "superClasseIDs")
     @XmlElement(name = "superClassID")
     private List<String>         superClassIDs = new ArrayList<String>();
           

@@ -12,7 +12,7 @@ import scaffold.modeling.uml.datatypes.AslUnlimitedNatural;
 import scaffold.modeling.uml.datatypes.AslVoid;
 
 
-@XmlType(propOrder = { "ID", "package" })
+@XmlType(propOrder = { "ID", "packageID" })
 public class UmlType extends UmlNamedElement  implements UmlIdentifiable {  
     public static boolean isPrimitiveType(String typeName) {
         if (typeName.equals("TYPE_Boolean")) return true;
@@ -138,6 +138,6 @@ public class UmlType extends UmlNamedElement  implements UmlIdentifiable {
         
     private String                      ID;
     
-    @XmlElement(name="package")
+    @XmlElement(name="packageID")
     private String                      packageID;
 }
