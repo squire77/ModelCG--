@@ -4,12 +4,8 @@
 package default;
 
 public class MyInterface2 {
-    public void m1(String param) {
-    }
 
     //*** accessors ***************************
-
-    string getAttr() { return this.attr; }
 
 
     //*** associations ***********************
@@ -17,5 +13,4 @@ public class MyInterface2 {
 
     //*** attributes ***************************
 
-    private String attr;
 }

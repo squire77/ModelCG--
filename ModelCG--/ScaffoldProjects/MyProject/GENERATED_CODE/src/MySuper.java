@@ -3,9 +3,11 @@
 //****
 package default;
 
-public class MyInterface1 {
+abstract public class MySuper {
 
     //*** accessors ***************************
+
+    int getMyattr() { return this.myattr; }
 
 
     //*** associations ***********************
@@ -13,4 +15,5 @@ public class MyInterface1 {
 
     //*** attributes ***************************
 
+    private int myattr;
 }

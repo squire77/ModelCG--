@@ -67,10 +67,11 @@ public class Console extends JFrame implements ITitleIndicator {
                 docMgr.getExplorerComponent().revalidate();
                 docMgr.getTabbedDocumentComponent().revalidate();
                 docMgr.getViewerByName(DocumentManager.VIEW_NAME_GRAPHICAL_MODEL).getComponent().revalidate();
+				commandLinePanel.revalidate();
                 repaint();
             }
-        });        		        
-		
+        });
+
         docMgr.setCurrentViewerByName(DocumentManager.VIEW_NAME_GRAPHICAL_MODEL);
 	    //docMgr.openMostRecentFiles();
         
@@ -218,6 +219,36 @@ public class Console extends JFrame implements ITitleIndicator {
         //create menu bar
         setJMenuBar(createMenuBar());
 
+       /*
+        cList = new ArrayList<String>();
+        cList.add("Beate");
+        cList.add("Claudia");
+        cList.add("Fjodor");
+        cList.add("Fred");
+        cList.add("Friedrich");
+        cList.add("Fritz");
+        cList.add("Frodo");
+        cList.add("Hermann");
+        cList.add("Willi");
+	cBox= new Java2sAutoComboBox(cList);
+         */
+
+        //create command line
+        commandLinePanel = new JPanel();
+        //autoComplete = new AutoComplete(commandField);
+        //autoComplete.setItems(new String[] {"if", "while"});
+        commandLinePanel.add(new JLabel("Command: ", JLabel.RIGHT)); //roughly 60 width
+        commandField = new JTextField(); //new Java2sAutoTextField(cList, cBox);
+        commandLinePanel.add(commandField); //roughly 520 width
+        commandField.addActionListener( new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent event) {
+                //generate( ((JTextField) event.getSource()).getText() );
+
+            }
+        } );
+        getContentPane().add(commandLinePanel, BorderLayout.CENTER);
+
         //create center pane
         centerPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
         docMgr.getExplorerComponent(), docMgr.getTabbedDocumentComponent());
@@ -245,6 +276,9 @@ public class Console extends JFrame implements ITitleIndicator {
 
         //update graphical view component
         graphicalModelViewer.getComponent().setPreferredSize(dim);
+
+        //update command field
+        commandField.setPreferredSize(new Dimension(width - 80, 30));
     }
 
     private JMenuBar createMenuBar() {
@@ -425,7 +459,43 @@ public class Console extends JFrame implements ITitleIndicator {
 
     private void generate() {	
         generatedCodeViewer.setText("");
-        
+
+		/*
+
+		"p.writeAll( \"" + scaffoldProject.getGeneratorTargetDirectory() + "\" )"
+
+        //Run language extensions
+        if (!scriptConn.runScript("src/metamodel/LangExt.groovy")) {
+            return;
+        }
+		
+        //Update the model
+        String plugins;
+        try {
+            plugins = FileUtility.readFile("data/config/plugins.txt"); // header files
+        } catch (IOException ex) {
+            ErrorDialog.getInstance().error("Unable to read file: data/config/plugins.txt", ex);
+            return;
+        }
+        try {
+            FileUtility.writeFile("tempModel.groovy", plugins + docMgr.getScaffoldViewer().getText() + '\n' + command);
+        } catch (IOException ex) {
+            ErrorDialog.getInstance().error("Unable to read file: tempModel.groovy", ex);
+            return;
+        }
+
+        //Run the model
+        if (!scriptConn.runScript("tempModel.groovy")) {
+            return;
+        }
+
+        //Save interactive command
+        if (saveCommand && !command.equals("")) {
+            docMgr.getGeneratedViewer().setText(docMgr.getGeneratedViewer().getText() + "\n" + command);
+            commandField.setText( "" );
+        }
+		*/
+		
         //Update the model
         String model;        
         try {                                 
@@ -455,7 +525,10 @@ public class Console extends JFrame implements ITitleIndicator {
     private TextDocumentViewer logViewer;
 
     private ProjectData         projectData;    
+	private ScriptConnector     scriptConn = new ScriptConnector();
     private IDocumentManager    docMgr;
     private JSplitPane          centerPane;
     private boolean             validLicense;
+	private JPanel              commandLinePanel;
+    private JTextField          commandField;
 }

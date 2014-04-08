@@ -113,6 +113,7 @@
     <file path="/UmlPackage.java" changelist="9a91937c-f706-43e2-9aa4-a6d6bd509b7e" time="1375998039740" ignored="false" />
     <file path="/IDocumentManager.java" changelist="9a91937c-f706-43e2-9aa4-a6d6bd509b7e" time="1395719902271" ignored="false" />
     <file path="/IDocumentFrame.java" changelist="9a91937c-f706-43e2-9aa4-a6d6bd509b7e" time="1395718320219" ignored="false" />
+    <file path="/ScriptConnector.java" changelist="9a91937c-f706-43e2-9aa4-a6d6bd509b7e" time="1396918229170" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,55 +177,16 @@
       <file leaf-file-name="Console.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scaffold/application/console/Console.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="420" column="64" selection-start="17327" selection-end="17327" vertical-scroll-proportion="-12.407408">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4685#4873#0" expanded="true" />
-                <element signature="e#4862#4863#0" expanded="true" />
-                <element signature="e#5221#7146#0" expanded="true" />
-                <element signature="e#7135#7136#0" expanded="true" />
-                <element signature="e#11387#11585#0" expanded="true" />
-                <element signature="e#11574#11575#0" expanded="true" />
-                <element signature="e#11624#12182#0" expanded="true" />
-                <element signature="e#12171#12172#0" expanded="true" />
-                <element signature="e#12221#12385#0" expanded="true" />
-                <element signature="e#12374#12375#0" expanded="true" />
-                <element signature="e#12426#13144#0" expanded="true" />
-                <element signature="e#13133#13134#0" expanded="true" />
-                <element signature="e#13179#13412#0" expanded="true" />
-                <element signature="e#13401#13402#0" expanded="true" />
-                <element signature="e#13611#13822#0" expanded="true" />
-                <element signature="e#13811#13812#0" expanded="true" />
-                <element signature="e#13967#14177#0" expanded="true" />
-                <element signature="e#14166#14167#0" expanded="true" />
-                <element signature="e#14408#14695#0" expanded="true" />
-                <element signature="e#14684#14685#0" expanded="true" />
-                <element signature="e#15114#15310#0" expanded="true" />
-                <element signature="e#15299#15300#0" expanded="true" />
-                <element signature="e#15350#15545#0" expanded="true" />
-                <element signature="e#15534#15535#0" expanded="true" />
-                <element signature="e#15587#15784#0" expanded="true" />
-                <element signature="e#15773#15774#0" expanded="true" />
-                <element signature="e#15993#16960#0" expanded="true" />
-                <element signature="e#16949#16950#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graphics-test.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/models/graphics-test.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="248" column="59" selection-start="10471" selection-end="10471" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="java-testclient.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/scaffolds/java-testclient.groovy">
+      <file leaf-file-name="graphics-test.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/models/graphics-test.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="17.64">
+            <state line="8" column="39" selection-start="212" selection-end="212" vertical-scroll-proportion="0.30155212">
               <folding />
             </state>
           </provider>
@@ -233,25 +195,7 @@
       <file leaf-file-name="java-testserver.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/scaffolds/java-testserver.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="16.32">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="license.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/license.txt">
-          <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="most_recent_project.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/most_recent_project.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.039170507">
               <folding />
             </state>
           </provider>
@@ -275,25 +219,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDocumentViewer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scaffold/platform/docviewer/IDocumentViewer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="56" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DocumentManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scaffold/platform/docmanager/DocumentManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="82" column="24" selection-start="3465" selection-end="3465" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1188#2807#0" expanded="true" />
-                <element signature="e#2796#2797#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -308,7 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/scaffold/modeling/uml/basic/cm/CmProperty.java" />
         <option value="$PROJECT_DIR$/src/scaffold/modeling/uml/basic/UmlPackage.java" />
         <option value="$PROJECT_DIR$/src/scaffold/platform/ErrorDialog.java" />
         <option value="$PROJECT_DIR$/src/scaffold/platform/fileexplorer/IFileOpener.java" />
@@ -320,10 +249,11 @@
         <option value="$PROJECT_DIR$/src/scaffold/application/console/ProjectData.java" />
         <option value="$PROJECT_DIR$/src/scaffold/platform/docmanager/IDocumentFrame.java" />
         <option value="$PROJECT_DIR$/src/scaffold/platform/docviewer/DocumentViewer.java" />
-        <option value="$PROJECT_DIR$/src/scaffold/application/console/Console.java" />
         <option value="$PROJECT_DIR$/src/scaffold/platform/docviewer/IDocumentViewer.java" />
         <option value="$PROJECT_DIR$/src/scaffold/platform/docmanager/IDocumentManager.java" />
         <option value="$PROJECT_DIR$/src/scaffold/platform/docmanager/DocumentManager.java" />
+        <option value="$PROJECT_DIR$/src/scaffold/application/console/ScriptConnector.java" />
+        <option value="$PROJECT_DIR$/src/scaffold/application/console/Console.java" />
       </list>
     </option>
   </component>
@@ -331,8 +261,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-10" />
+    <option name="y" value="2" />
     <option name="width" value="1618" />
     <option name="height" value="884" />
   </component>
@@ -366,17 +296,105 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scaffolds_new" />
+              <option name="myItemId" value="ModelCG--" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scaffolds_new" />
+              <option name="myItemId" value="ModelCG--" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scaffolds_new" />
+              <option name="myItemId" value="ModelCG--" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelCG--" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelCG--" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scaffold" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelCG--" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelCG--" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scaffold" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelCG--" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelCG--" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scaffold" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelCG--" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ModelCG--" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scaffold" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="console" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,15 +406,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -456,6 +478,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -469,6 +519,27 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <list size="2">
@@ -517,8 +588,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1618" height="884" extended-state="0" />
-    <editor active="false" />
+    <frame x="-10" y="2" width="1618" height="884" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -538,8 +609,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26383525" sideWeight="0.6830986" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253521" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1949807" sideWeight="0.67464787" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253521" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -613,32 +684,21 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/scaffold/platform/docviewer/TextDocumentViewer.java">
+    <entry file="file://$PROJECT_DIR$/src/scaffold/platform/docmanager/DocumentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="25" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scaffold/platform/fileexplorer/FileExplorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="43" selection-start="2595" selection-end="2595" vertical-scroll-proportion="-40.925926">
+        <state line="82" column="24" selection-start="3465" selection-end="3465" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scaffold/platform/fileexplorer/FileUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="13" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scaffold/platform/fileexplorer/IFileOpener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="45" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scaffold/platform/docviewer/DocumentViewer.java">
@@ -652,17 +712,13 @@
     </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_25/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="0" selection-start="6287" selection-end="6287" vertical-scroll-proportion="0.3317757">
-          <folding />
-        </state>
+        <state line="189" column="0" selection-start="6287" selection-end="6287" vertical-scroll-proportion="0.3317757" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scaffold/platform/docviewer/IDocumentViewer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="56" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -683,81 +739,53 @@
     <entry file="file://$PROJECT_DIR$/src/scaffold/platform/docmanager/DocumentManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="24" selection-start="3465" selection-end="3465" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1188#2807#0" expanded="true" />
-            <element signature="e#2796#2797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scaffold/application/console/Console.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="420" column="64" selection-start="17327" selection-end="17327" vertical-scroll-proportion="-12.407408">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4685#4873#0" expanded="true" />
-            <element signature="e#4862#4863#0" expanded="true" />
-            <element signature="e#5221#7146#0" expanded="true" />
-            <element signature="e#7135#7136#0" expanded="true" />
-            <element signature="e#11387#11585#0" expanded="true" />
-            <element signature="e#11574#11575#0" expanded="true" />
-            <element signature="e#11624#12182#0" expanded="true" />
-            <element signature="e#12171#12172#0" expanded="true" />
-            <element signature="e#12221#12385#0" expanded="true" />
-            <element signature="e#12374#12375#0" expanded="true" />
-            <element signature="e#12426#13144#0" expanded="true" />
-            <element signature="e#13133#13134#0" expanded="true" />
-            <element signature="e#13179#13412#0" expanded="true" />
-            <element signature="e#13401#13402#0" expanded="true" />
-            <element signature="e#13611#13822#0" expanded="true" />
-            <element signature="e#13811#13812#0" expanded="true" />
-            <element signature="e#13967#14177#0" expanded="true" />
-            <element signature="e#14166#14167#0" expanded="true" />
-            <element signature="e#14408#14695#0" expanded="true" />
-            <element signature="e#14684#14685#0" expanded="true" />
-            <element signature="e#15114#15310#0" expanded="true" />
-            <element signature="e#15299#15300#0" expanded="true" />
-            <element signature="e#15350#15545#0" expanded="true" />
-            <element signature="e#15534#15535#0" expanded="true" />
-            <element signature="e#15587#15784#0" expanded="true" />
-            <element signature="e#15773#15774#0" expanded="true" />
-            <element signature="e#15993#16960#0" expanded="true" />
-            <element signature="e#16949#16950#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/models/graphics-test.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/scaffolds/java-testclient.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="17.64">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/scaffolds/java-testserver.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="16.32">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/license.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/most_recent_project.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.039170507">
+        <state line="1" column="51" selection-start="41" selection-end="41" vertical-scroll-proportion="0.039170507" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/license.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/scaffolds/java-testserver.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scaffold/application/console/ScriptConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="35" selection-start="246" selection-end="246" vertical-scroll-proportion="-0.27419356">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scaffold/application/console/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="248" column="59" selection-start="10471" selection-end="10471" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/scaffolds/java-testclient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScaffoldProjects/ACE/models/graphics-test.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="39" selection-start="212" selection-end="212" vertical-scroll-proportion="0.30155212">
           <folding />
         </state>
       </provider>
